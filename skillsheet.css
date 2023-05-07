@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(39, 32, 32);
+}
+img{
+    border-radius: 50%;
+    width:360px;
+    height:240px;
+}
+
+table{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    align-items: center;
+    margin: 30px 0px;
+    color: white;
+    background-color: rgb(39, 32, 32);
+}
+
+figcaption{
+    font-family: century;
+    font-size: medium;
+    padding-top: 20px;
+    padding-left: 28%;
+    color: white;
+}
+
+/*for responsive layout*/
+@media screen and (max-width:600px){
+    table{
+        width: 100%;
+    }
+}

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    align-items: center;
+    margin: 30px 0px;
+    color: white;
+    background-color: rgb(39, 32, 32);
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+#msg{
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    border:none;
+    outline: none;
+}
+
+#send{
+    width:10%;
+    padding: 10px;
+    margin: 30px;
+    border:none;
+    outline: none;
+
+}
+
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px white;
+}
+
+/*for responsive layout*/
+@media screen and (max-width:600px){
+    .column{
+        width: 100%;
+    }
+}
